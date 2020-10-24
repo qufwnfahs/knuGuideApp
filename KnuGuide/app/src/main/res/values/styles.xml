@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/appBackground</item>
+        <item name="colorAccent">@color/cal_header_title</item>
+    </style>
+
+    <!-- 수평 프로그레스바 스타일 정의 -->
+    <style name="ProgressBarHorizontalTheme" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">4dp</item>
+        <item name="android:indeterminateTint">@android:color/white</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:scaleY">3</item>
+    </style>
+
+</resources>

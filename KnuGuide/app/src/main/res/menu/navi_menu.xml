@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/announcement"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:icon="@drawable/ic_announcement"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/calender"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:icon="@drawable/ic_calendar"
+            android:title="학사일정" />
+        <item
+            android:id="@+id/department"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:icon="@drawable/ic_department"
+            android:title="학과정보" />
+        <item
+            android:id="@+id/bus"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:icon="@drawable/ic_bus_sticker"
+            android:title="강원대 버스" />
+    </group>
+</menu>
